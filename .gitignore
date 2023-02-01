@@ -127,3 +127,15 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# .DS_Store
+*.DS_Store
+
+# Any JSON files
+*.json
+
+# Any .h5 files
+*.h5
+
+# Any .air files
+*.air
