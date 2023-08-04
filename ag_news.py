@@ -64,7 +64,7 @@ print(classification_report(test_labels, preds))
 model.save('topic_classifier.h5')
 
 harvester = aisquared.config.harvesting.InputHarvester()
-preprocesser = aisquared.config.preprocessing.text.TextPreprocesser(
+preprocesser = aisquared.config.preprocessing.text.TextPreprocessor(
     [
         aisquared.config.preprocessing.text.RemoveCharacters(),
         aisquared.config.preprocessing.text.ConvertToCase(lowercase = True),
